@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: Translate DOCUMENTATION
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language:
+          - { code: zh-CN, name: Chinese Simplified }
+          - { code: zh-TW, name: Chinese Traditional }
+          - { code: hi, name: Hindi }
+          - { code: ar, name: Arabic }
+          - { code: fr, name: French }
+          - { code: en, name: English }
+          - { code: de, name: German }
+          - { code: nl, name: Dutch }
+          - { code: es, name: Spanish }
+    
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x  # Updated to a more recent LTS version
+      
+      - name: Adding DOCUMENTATION - ${{ matrix.language.name }}
+        uses: vanHeemstraSystems/translate-documentation@main
+        with:
+          LANG: ${{ matrix.language.code }}
+          COMMIT_MESSAGE: "docs: Added DOCUMENTATION.${{ matrix.language.code }}.md translation [skip spacelift]"

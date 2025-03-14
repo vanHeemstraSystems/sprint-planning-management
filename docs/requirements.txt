@@ -1,0 +1,7 @@
+# Documentation dependencies only - no pip upgrades
+sphinx>=8.2.3
+sphinx_rtd_theme>=2.0.0
+recommonmark>=0.7.1
+myst-parser>=2.0.0
+
+# Do not include pip upgrade commands here

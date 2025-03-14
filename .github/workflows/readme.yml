@@ -1,0 +1,63 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: Translate README
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      paths:
+        - 'README.md'  # Only trigger on README.md changes
+      paths-ignore:
+        - 'docs/**'    # Ignore changes in docs directory
+              
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      # ISO Language Codes: https://cloud.google.com/translate/docs/languages  
+      - name: Adding README - Chinese Simplified
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: zh-CN
+          COMMIT_MESSAGE: "docs: Added README.zh-CN.md translation [skip spacelift]"
+      - name: Adding README - Chinese Traditional
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: zh-TW
+          COMMIT_MESSAGE: "docs: Added README.zh-TW.md translation [skip spacelift]"
+      - name: Adding README - Hindi
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: hi
+          COMMIT_MESSAGE: "docs: Added README.hi.md translation [skip spacelift]"
+      - name: Adding README - Arabic
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: ar
+          COMMIT_MESSAGE: "docs: Added README.ar.md translation [skip spacelift]"
+      - name: Adding README - French
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: fr
+          COMMIT_MESSAGE: "docs: Added README.fr.md translation [skip spacelift]"
+      - name: Adding README - German
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: de
+          COMMIT_MESSAGE: "docs: Added README.de.md translation [skip spacelift]"
+      - name: Adding README - Dutch
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: nl
+          COMMIT_MESSAGE: "docs: Added README.nl.md translation [skip spacelift]"
+      - name: Adding README - Spanish
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: es
+          COMMIT_MESSAGE: "docs: Added README.es.md translation [skip spacelift]"

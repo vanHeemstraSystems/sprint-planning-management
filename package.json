@@ -1,0 +1,24 @@
+{
+  "name": "replace-with-your-repository-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Replace with your GitHub username",
+  "license": "ISC",
+  "devDependencies": {
+    "@nrwl/workspace": "^19.8.4",
+    "@nx/eslint": "^20.4.5",
+    "@nx/jest": "^20.4.5",
+    "@nx/playwright": "^20.4.5",
+    "@nx/react": "^20.4.5",
+    "@nx/webpack": "^20.4.5",
+    "nx": "^20.4.5",
+    "webpack-cli": "^6.0.1"
+  }
+}
