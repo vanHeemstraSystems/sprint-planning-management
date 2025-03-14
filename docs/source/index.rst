@@ -1,5 +1,5 @@
-Welcome to Your Project Documentation
-======================================
+Welcome to Sprint Planning Management Documentation
+====================================================
 
 .. toctree::
    :maxdepth: 2
