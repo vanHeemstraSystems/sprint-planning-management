@@ -1,5 +1,5 @@
 {
-  "name": "replace-with-your-repository-name",
+  "name": "sprint-planning-management",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Replace with your GitHub username",
+  "author": "Willem van Heemstra",
   "license": "ISC",
   "devDependencies": {
     "@nrwl/workspace": "^19.8.4",
