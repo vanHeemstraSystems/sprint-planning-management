@@ -20,6 +20,12 @@ Set the Start Date to the first day of the Sprint and set a Start and End Time s
 
 If the time of the Sprint Planning does not change during Sprints, you can set the End Date to the very end of the last Sprint of the Year. Otherwise set the End Date to the last day of the last Sprint of the Quarter.
 
+![Image](https://github.com/user-attachments/assets/d1df1d5b-cbb0-4c11-874f-732daebc71b3)
+
+.. image:: https://github-production-user-asset-6210df.s3.amazonaws.com/1499433/430853870-d1df1d5b-cbb0-4c11-874f-732daebc71b3.png
+  :width: 400
+  :alt: Sprint Planning Event in MS Teams
+
 Note: This is NOT and "All day" event.
 
 Recommended: Good practise is to hold your Sprint Planning at the start of your Sprint.
