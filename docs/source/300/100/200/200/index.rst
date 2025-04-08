@@ -67,4 +67,6 @@ There are two artifacts that result from a sprint planning meeting:
 1. A sprint goal
 2. A sprint backlog
 
+The Sprint Planning is followed by the Sprint Start.
+
 The Calendar Event of the Sprint Planning could have directions to the physical meeting place or a link online meeting for ease of attending.
