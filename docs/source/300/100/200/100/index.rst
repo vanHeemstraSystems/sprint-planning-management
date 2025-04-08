@@ -76,3 +76,9 @@ Inside of the Sprint event, it is convenient to use the Description field to hol
 "Products": the name(s) of the Products (i.e. Goods & Services) the Team provides. For example: "Microsoft Azure Cloud Services".
 
 "References": any links to references to the Team or its documentation or point-of-contact or Scrum or Kanban Board, or link to their Teams Channel.
+
+"PI YY.QUARTER Objectives - PIPE"
+- Theme: [Name of a Strategic Theme, e.g., Security]
+  - Objective X: Description of Objective X, Level of Commitment (C=Commited, S=Uncommited/Stretched, U=Unplanned), Expected in Sprint YY.QUARTER.SprintNr
+  - Objective Y: Description of Objective X, Level of Commitment (C=Commited, S=Uncommited/Stretched, U=Unplanned), Expected in Sprint YY.QUARTER.SprintNr
+  - Objective Z: Description of Objective X, Level of Commitment (C=Commited, S=Uncommited/Stretched, U=Unplanned), Expected in Sprint YY.QUARTER.SprintNr
