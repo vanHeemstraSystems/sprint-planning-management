@@ -21,7 +21,16 @@ Text
 
 Generated with [Rytr](https://app.rytr.me)
 
-![Image](https://github.com/user-attachments/assets/b909e610-6ceb-4ef2-8219-ffbde0eae12e)
+<img width="1262" height="710" alt="Image" src="https://github.com/user-attachments/assets/4a18b2e7-6bf3-41d9-aa21-6769ec644185" />
+
+<table>
+<th colspan="5">Summarize with:</th><tr/> 
+<td><a href="https://chat.openai.com/?q=please+read+and+summarize+the+content+from+this+url+https://github.com/vanHeemstraSystems/sprint-planning-management/">ChatGPT</a></td>
+<td><a href="https://x.com/i/grok?text=please+read+and+summarize+the+content+from+this+url+https://github.com/vanHeemstraSystems/sprint-planning-management/">Grok</a></td>
+<td><a href="https://www.google.com/search?udm=50&aep=11&q=please+read+and+summarize+the+content+from+this+url+https://github.com/vanHeemstraSystems/sprint-planning-management/">Google AI Mode</a></td>
+<td><a href="https://www.perplexity.ai/search/new?q=please+read+and+summarize+the+content+from+this+url+https://github.com/vanHeemstraSystems/sprint-planning-management/">Perplexity</a></td>
+<td><a href="https://claude.ai/new?q=please+read+and+summarize+the+content+from+this+url+https://github.com/vanHeemstraSystems/sprint-planning-management/">Claude.ai</a></td>  
+</table>
 
 ## 100 - Introduction
 
